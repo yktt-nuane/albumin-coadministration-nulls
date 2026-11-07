@@ -24,7 +24,7 @@ Comparator times are never moved. Admissions with no feasible schedule shift are
 
 ## Parameters used in the article
 
-Window from 2 h before to 12 h after the dose. Shorter and symmetric windows: 2 h either side, 0 to 6 h after, 6 h either side, 12 h either side. 2,000 null replicates, 1,000 bootstrap replicates, seed 42, 2.5th and 97.5th percentiles. Schedule shift up to 3 days, with 1 and 7 days as sensitivity analyses.
+Window from 2 h before to 12 h after the dose. Shorter and symmetric windows: 2 h either side, 0 to 6 h after, 6 h either side, 12 h either side. 2,000 null replicates, 1,000 bootstrap replicates resampling individuals (the `cluster` argument), seed 42, 2.5th and 97.5th percentiles. Schedule shift up to 3 days, with 1 and 7 days as sensitivity analyses. The demo uses 200 null replicates and resamples admissions.
 
 ## Running it
 

@@ -20,7 +20,8 @@ dose_rows, other_rows = [], []
 for admission, days in zip(ids, stay_days):
     first = int(rng.integers(2, max(3, days - 6)))
     for day in range(first, min(first + int(rng.integers(1, 6)), int(days))):
-        when = start + pd.Timedelta(days=day, hours=9, minutes=int(rng.integers(0, 60)))
+        hour = int(rng.choice([6, 9, 9, 14, 18, 21]))
+        when = start + pd.Timedelta(days=day, hours=hour, minutes=int(rng.integers(0, 60)))
         dose_rows.append({"admission_id": admission, "dt": when})
         if rng.random() < 0.3:   # simulated comparator shortly after the dose
             other_rows.append({"admission_id": admission, "dt": when + pd.Timedelta(minutes=int(rng.integers(5, 90)))})
