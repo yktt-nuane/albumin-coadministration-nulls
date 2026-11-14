@@ -14,8 +14,9 @@ The repository contains no patient data. `results/` holds aggregate tables only 
 | `results/S4_theatre_records.csv` | Operating-theatre drug records: albumin and furosemide. |
 | `results/S5_same_time_records.csv` | Albumin records sharing an admission and time, and the analysis counting them once. |
 | `results/S6_pairing_units.csv` | Pairing with confidence intervals from resampling admissions and from resampling individuals (the article reports individuals). |
+| `results/S7_screen_components.csv` | Components of the sepsis screen and the suspected-infection sequence, in all, treated and untreated admissions. |
 
-All analyses in these tables are exploratory. Percentile ranges describe variability under each simulated null and are not confidence intervals for the observed-minus-expected difference.
+All analyses in these tables are exploratory. Percentile ranges describe variability under each simulated null and are not confidence intervals for the observed-minus-expected difference. Neither null conditions on clinical state. The pairing window is asymmetric (2 h before to 12 h after a dose), and drugs given on common medication rounds can share clock times, so the clock-preserving null keeps the distribution of dose clock times. A window as wide as the null's 24-h block (−12 to +12 h) leaves the clock-preserving expectation equal to the observed value by construction.
 
 ## What it does
 

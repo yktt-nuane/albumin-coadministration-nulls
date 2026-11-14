@@ -1,7 +1,8 @@
 """Time-pairing of drug administrations and simulated null distributions.
 
-This module reproduces the method used in "Timing of hypertonic albumin and co-administered
-furosemide in sepsis". It contains no patient data. See README.md for the input format.
+This module reproduces the method used in "Timing of first recorded non-operative hypertonic
+albumin doses and nearby furosemide records in adults with a positive sepsis screen". It contains
+no patient data. See README.md for the input format.
 
 Inputs
 ------
