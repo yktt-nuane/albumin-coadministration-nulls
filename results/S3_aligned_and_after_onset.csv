@@ -1,0 +1,27 @@
+Measure,Value
+"Treated admissions with an aligned screen, n",434
+"Doses, n","2,539"
+"Hours from admission-day start to first dose, median (IQR)",81.6 (44.3–136.3)
+"Albumin value in the 24 h before the first dose, n/N (%)",370/434 (85.3)
+"Pre-dose albumin, g/dL, median (IQR)",2.2 (1.8–2.5)
+"Pre-dose albumin below 3.0 g/dL, n/N (%)",353/370 (95.4)
+"Doses at or after the suspected-infection onset, n/N (%)","2,501/2,539 (98.5)"
+"Admissions with a dose at or after the onset, n",430
+"Hours from onset to first dose at or after it, median (IQR)",61.7 (26.3–127.7)
+"Albumin value in the 24 h before the first dose at or after the onset, n/N (%)",364/430 (84.7)
+"Pre-dose albumin below 3.0 g/dL, first dose at or after the onset, n/N (%)",347/364 (95.3)
+"Aligned doses with furosemide, -2 to +12 h, n/N (%)","1,093/2,539 (43.0)"
+"Doses at or after the onset with furosemide, -2 to +12 h, n/N (%)","1,080/2,501 (43.2)"
+"Aligned doses with noradrenaline, -2 to +12 h, n/N (%)","709/2,539 (27.9)"
+"Doses at or after the onset with noradrenaline, -2 to +12 h, n/N (%)","690/2,501 (27.6)"
+"Aligned doses with hydrocortisone, -2 to +12 h, n/N (%)","305/2,539 (12.0)"
+"Doses at or after the onset with hydrocortisone, -2 to +12 h, n/N (%)","305/2,501 (12.2)"
+"Treated admissions with the sequence, n",772
+"Sequence: doses at or after the onset, n/N (%)","4,076/5,148 (79.2)"
+"Sequence: admissions with a dose at or after the onset, n",679
+"Sequence: hours from onset to first dose at or after it, median (IQR)",55.8 (22.5–127.6)
+"Sequence: albumin value in the 24 h before that dose, n/N (%)",579/679 (85.3)
+"Sequence: pre-dose albumin below 3.0 g/dL, n/N (%)",543/579 (93.8)
+"Sequence: doses at or after the onset with furosemide, -2 to +12 h, n/N (%)","1,718/4,076 (42.1)"
+"Sequence: doses at or after the onset with noradrenaline, -2 to +12 h, n/N (%)","1,124/4,076 (27.6)"
+"Sequence: doses at or after the onset with hydrocortisone, -2 to +12 h, n/N (%)","408/4,076 (10.0)"

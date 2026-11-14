@@ -1,0 +1,15 @@
+Measure,Value
+"Records sharing an admission and time with another record, n",140
+"Same-time groups, n",70
+"Groups with the same product, quantity and unit, n",69
+"Groups with a different product, quantity or unit, n",1
+"Doses after collapsing same-time records, n","5,448"
+"First dose unchanged after collapsing, n/N",836/836
+"Hours from admission-day start to first dose after collapsing, median (IQR)",107.2 (58.5–229.6)
+"Pre-dose albumin below 3.0 g/dL after collapsing, n/N (%)",673/705 (95.5)
+"Doses with furosemide, -2 to +12 h, as recorded, n/N (%)","2,350/5,518 (42.6)"
+"Doses with furosemide, -2 to +12 h, collapsed, n/N (%)","2,320/5,448 (42.6)"
+"Doses with noradrenaline, -2 to +12 h, as recorded, n/N (%)","1,403/5,518 (25.4)"
+"Doses with noradrenaline, -2 to +12 h, collapsed, n/N (%)","1,381/5,448 (25.3)"
+"Doses with hydrocortisone, -2 to +12 h, as recorded, n/N (%)","456/5,518 (8.3)"
+"Doses with hydrocortisone, -2 to +12 h, collapsed, n/N (%)","453/5,448 (8.3)"

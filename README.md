@@ -1,8 +1,21 @@
 # Time-pairing nulls for drug administrations
 
-Code for the time-pairing analysis in "Timing of hypertonic albumin and co-administered furosemide in sepsis: A single-centre cohort study".
+Code and aggregate sensitivity tables for the time-pairing analysis in "Timing of first recorded non-operative hypertonic albumin doses and nearby furosemide records in adults with a positive sepsis screen: A single-centre cohort study".
 
-The repository contains no patient data and no study results. `examples/synthetic_demo.py` runs the code on simulated admissions.
+The repository contains no patient data. `results/` holds aggregate tables only (counts, percentages, medians and simulated ranges). `examples/synthetic_demo.py` runs the code on simulated admissions.
+
+## Sensitivity tables
+
+| File | Contents |
+|---|---|
+| `results/S1_window_sensitivity.csv` | Pairing in each window (−2 to +12 h, −2 to +2 h, 0 to +6 h, −6 to +6 h, −12 to +12 h) with both nulls. Confidence intervals in this file resample admissions. |
+| `results/S2_null_models.csv` | Both nulls by population and drug, with schedule shifts of up to 1, 3 and 7 days and the admissions excluded for lack of a feasible shift. |
+| `results/S3_aligned_and_after_onset.csv` | Admissions with an aligned screen, and doses at or after suspected-infection onset. |
+| `results/S4_theatre_records.csv` | Operating-theatre drug records: albumin and furosemide. |
+| `results/S5_same_time_records.csv` | Albumin records sharing an admission and time, and the analysis counting them once. |
+| `results/S6_pairing_units.csv` | Pairing with confidence intervals from resampling admissions and from resampling individuals (the article reports individuals). |
+
+All analyses in these tables are exploratory. Percentile ranges describe variability under each simulated null and are not confidence intervals for the observed-minus-expected difference.
 
 ## What it does
 
